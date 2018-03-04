@@ -1,0 +1,53 @@
+{
+    "name": "safaeean/laravel-sitemap",
+    "description": "Create and generate sitemaps with ease",
+    "keywords": [
+        "safaeean",
+        "laravel-sitemap"
+    ],
+    "homepage": "https://github.com/safaeean/laravel-sitemap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@safaeean.be",
+            "homepage": "https://safaeean.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "~5.3.0|~5.4.0",
+        "nesbot/carbon": "^1.21",
+        "safaeean/crawler": "^2.0.2",
+        "safaeean/temporary-directory": "^1.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.3.0|~3.4.0",
+        "phpunit/phpunit": "^5.7",
+        "safaeean/phpunit-snapshot-assertions": "^0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "safaeean\\Sitemap\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "safaeean\\Sitemap\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "safaeean\\Sitemap\\SitemapServiceProvider"
+            ]
+        }
+    }
+}
