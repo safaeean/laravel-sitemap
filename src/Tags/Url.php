@@ -24,6 +24,9 @@ class Url extends Tag
     /** @var string */
     public $changeFrequency;
 
+    /** @var array */
+    public $images;
+
     /** @var float */
     public $priority = 0.8;
 
@@ -76,6 +79,18 @@ class Url extends Tag
     public function setChangeFrequency(string $changeFrequency)
     {
         $this->changeFrequency = $changeFrequency;
+
+        return $this;
+    }
+
+    /**
+     * @param string $changeFrequency
+     *
+     * @return $this
+     */
+    public function setImages(array $images)
+    {
+        $this->images = $images;
 
         return $this;
     }
