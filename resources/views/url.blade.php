@@ -22,14 +22,14 @@
     @endif
 
     @if (count($tag->images))
-@foreach($tag->images as $image)
-@if(@$image['name'])
-        <image:image>
-                <image:loc>http://fiza.ir/wp-content/uploads/2016/02/{{ $image['name'] }}</image:loc>
-                @if(@$image['title'])<image:caption><![CDATA[{{ $image['title'] }}]]></image:caption>@endif
+        @foreach($tag->images as $image)
+            @if(@$image['name'])
+                <image:image>
+                    <image:loc>{{  env('APP_URL') . "/upload/entity/"  }}{{ $image['name'] }}</image:loc>
+                    @if(@$image['title'])<image:caption><![CDATA[{{ $image['title'] }}]]></image:caption>@endif
 
-            </image:image>
-@endif
-@endforeach
+                </image:image>
+            @endif
+        @endforeach
     @endif
 </url>
