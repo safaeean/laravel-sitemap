@@ -25,7 +25,7 @@
         @foreach($tag->images as $image)
             @if(@$image['name'])
                 <image:image>
-                    <image:loc>{{  env('APP_URL') . "/upload/entity/"  }}{{ $image['name'] }}</image:loc>
+                    <image:loc>{{ $image['name'] }}</image:loc>
                     @if(@$image['title'])<image:caption><![CDATA[{{ $image['title'] }}]]></image:caption>@endif
 
                 </image:image>
