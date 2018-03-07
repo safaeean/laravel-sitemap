@@ -55,7 +55,7 @@ You're free to use this package (it's [MIT-licensed](LICENSE.md)), but if it mak
 
 Our address is: safaeean, Samberstraat 69D, 2060 Antwerp, Belgium.
 
-All postcards are published [on our website](https://safaeean.be/en/opensource/postcards).
+All postcards are published [on our website](https://mndco.ir/en/opensource/postcards).
 
 ## Installation
 
@@ -383,7 +383,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email freek@safaeean.be instead of using the issue tracker.
+If you discover any security related issues, please email freek@mndco.ir instead of using the issue tracker.
 
 ## Credits
 
@@ -391,7 +391,7 @@ If you discover any security related issues, please email freek@safaeean.be inst
 - [All Contributors](../../contributors)
 
 ## About safaeean
-safaeean is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://safaeean.be/opensource).
+safaeean is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://mndco.ir/opensource).
 
 ## License
 

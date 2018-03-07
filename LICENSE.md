@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) safaeean bvba <info@safaeean.be>
+Copyright (c) safaeean bvba <info@mndco.ir>
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
