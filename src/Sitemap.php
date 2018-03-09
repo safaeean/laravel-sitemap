@@ -48,12 +48,13 @@ class Sitemap
 
     public function hasUrl(string $url): bool
     {
-        return (bool) $this->getUrl($url);
+        return (bool)$this->getUrl($url);
     }
 
-    public function render(): string
+    public function render($sort = false): string
     {
-        sort($this->tags);
+        if ($sort)
+            sort($this->tags);
 
         $tags = $this->tags;
 
