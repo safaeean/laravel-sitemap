@@ -63,6 +63,7 @@ class Sitemap
             ->render();
     }
 
+
     /**
      * @param string $path
      *
