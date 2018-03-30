@@ -18,15 +18,16 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/support": "~5.3.0|~5.4.0|^5.5",
+        "illuminate/support": "~5.5.0|~5.6.0",
         "nesbot/carbon": "^1.21",
-        "spatie/crawler": "^2.0.2",
+        "spatie/crawler": "^4.0.3",
         "spatie/temporary-directory": "^1.1"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.3.0|~3.4.0",
-        "phpunit/phpunit": "^5.7",
-        "spatie/phpunit-snapshot-assertions": "^0.4.1"
+        "orchestra/testbench": "~3.5.0|~3.6.0",
+        "phpunit/phpunit": "^6.4.1|^7.0",
+        "spatie/phpunit-snapshot-assertions": "^1.0.0",
+        "spatie/temporary-directory": "^1.1"
     },
     "autoload": {
         "psr-4": {
