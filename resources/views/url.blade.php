@@ -22,7 +22,7 @@
     @endif
 
 
-    @if (count($tag->images))
+    @if (is_array($tag->images) && count($tag->images))
         @foreach($tag->images as $image)
             @if(@$image['name'])
                 <image:image>
