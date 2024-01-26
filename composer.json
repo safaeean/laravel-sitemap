@@ -20,7 +20,7 @@
         "php": "^7.2",
         "illuminate/support": "~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
         "nesbot/carbon": "^1.21|^2.0",
-        "spatie/crawler": "^4.1.0"
+        "spatie/crawler": "*"
     },
     "require-dev": {
         "orchestra/testbench": "~3.5.0|~3.6.0",
